@@ -48,6 +48,14 @@ body {
     width: 128px;
     height: 52px;
     border: 1px solid #5e3bee;
+}
 
+.representation {
+    height: 748px;
+    background: red;
+}
 
+.main-text {
+    font-size: 56px;
+    font-weight: 700;
 }
