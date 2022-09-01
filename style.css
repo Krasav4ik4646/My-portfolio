@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 
 body {
     margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .wrapper {
@@ -22,8 +25,8 @@ body {
 }
 
 .nav {
-    width: 364px;
-    height: 24px;
+    width: 850px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
 
@@ -32,23 +35,31 @@ body {
 }
 
 .nav_item {
-    margin: 0;
+    font-size: 1.2em;
+    line-height: 34px;
+    font-weight: 600;
+    width: 200px;
+    background: #FF5722;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
-    font-size: 16px;
+    font-size: 1.2em;
     text-decoration: none;
+    color: #eee;
 }
 
 .contact-button {
-    font-size: 16px;
+    font-size: 0.92em;
     color: #5E3BEE;
     border-radius: 4px;
     width: 128px;
     height: 52px;
     border: 1px solid #5e3bee;
     cursor: pointer;
-   
+
 }
 
 
@@ -73,29 +84,32 @@ body {
 
 .intro {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.5em;
     color: #282938;
 }
 
 .topic {
-    font-size: 56px;
+    font-size: 3em;
     font-weight: 700;
     color: #282938;
     margin: 0;
+    font-style: italic;
+    letter-spacing: 10px;
 }
-.violet{
+
+.violet {
     color: #5e3bee;
 }
 
 .lorem-text {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1em;
     color: #282938;
 }
 
 .tell-me-button {
-    width: 128px;
-    height: 52px;
+    width: 200px;
+    height: 51px;
     border-radius: 4px;
     background: #5e3bee;
     color: #eee;
@@ -109,16 +123,91 @@ body {
     display: flex;
     justify-content: flex-start;
 }
-.myphoto{
+
+.myphoto {
     height: 400px;
 }
-.myskills{
+
+.myskills {
     width: 100%;
     height: 767px;
     display: flex;
+    flex-direction: column;
 }
-.skil-group1{
+
+.skil-group1 {
+    width: 100%;
+    height: 98px;
+    margin: 100px 0 0 0;
     display: flex;
     flex-direction: column;
-    
+}
+
+.skil-group2 {
+    width: 100%;
+    height: 287px;
+    margin: 80px 0 0 0;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.block-of-expertise {
+    width: 304px;
+    height: 287px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    border: 1px solid #3139a8;
+    border-radius: 100% 100% 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_icon {
+    width: 60%;
+    height: 60%;
+
+}
+
+.material-symbols-outlined {
+    color: #006B6A;
+    font-size: 3em !important;
+
+}
+
+.front-end {
+    color: #280059;
+}
+
+.orange {
+    color: #280059;
+}
+
+.blue {
+    color: #280059;
+}
+
+.yellow {
+    color: #280059;
+}
+.text-title{
+    font-size: 1.2em;
+    line-height: 50px;
+    font-weight: 900;
+    margin: 0 0 0 80px;
+    width: 200px;
+    height: 50px;
+    background: #FF5722;
+    text-align: center;
+    vertical-align: center;
 }
